@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.test {
+    background: radial-gradient(circle at bottom center, #000000, #3E065F);
+    background-repeat: no-repeat;
+    place-items: center;
+    height: 1000px;
+
+    h1 {
+        font-size: 50px;
+        font-family: fantasy;
+        color: transparent;
+        text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
+        letter-spacing: 2px;
+    }
+
+    .test2 {
+        background-color: transparent;
+        border: 1px solid;
+        height: 200px;
+        width: 200px;
+    }
+}
